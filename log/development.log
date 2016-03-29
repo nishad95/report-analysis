@@ -1,0 +1,2632 @@
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 14:14:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered .bundle/gems/railties-4.2.5.1/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 15ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 14:17:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1256ms (Views: 1247.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 14:17:11 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 14:17:12 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 14:17:12 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 14:17:12 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 14:17:12 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 14:17:12 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 54.251.49.8 at 2016-03-28 14:17:12 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:00:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 218ms (Views: 209.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:00:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/grayscale.css" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/grayscale.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.3ms)
+
+
+Started GET "/font-awesome/css/font-awesome.min.css" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/font-awesome/css/font-awesome.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.3ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.7ms)
+
+
+Started GET "/js/grayscale.js" for 54.251.49.8 at 2016-03-28 15:00:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/grayscale.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:00:11 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:00:11 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.9ms)
+
+
+Started GET "/js/jquery.easing.min.js" for 54.251.49.8 at 2016-03-28 15:00:11 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.easing.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.4ms)
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:06:30 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 465ms (Views: 456.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/grayscale.self-3114a2f002e68397c21fc9968c44c5a3b8a1e53a58b9173ee2451a49a45b048e.css?body=1" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.6ms)
+
+
+Started GET "/css/grayscale.css" for 54.251.49.8 at 2016-03-28 15:06:31 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/grayscale.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:32 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:32 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:32 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/font-awesome/css/font-awesome.min.css" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/font-awesome/css/font-awesome.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.1ms)
+
+
+Started GET "/assets/grayscale.self-64ef2b3f68d4f71f25840fa80062716a90bfb9fac91e7a70a970c45ca2efcc51.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/jquery.easing.min.js" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.easing.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.1ms)
+
+
+Started GET "/js/grayscale.js" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/grayscale.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 54.251.49.8 at 2016-03-28 15:06:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:06:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:06:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (55.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.3ms)
+
+
+Started GET "/img/intro-bg.jpg" for 54.251.49.8 at 2016-03-28 15:06:36 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/intro-bg.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/img/downloads-bg.jpg" for 54.251.49.8 at 2016-03-28 15:06:36 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/downloads-bg.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.9ms)
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:08:52 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/grayscale.self-ee4dbd599eb1b6e7459a3d7f7d64ffe968b229608cbef0e950345f1b2343979c.css?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+
+
+Started GET "/font-awesome/css/font-awesome.min.css" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/font-awesome/css/font-awesome.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:53 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/grayscale.self-64ef2b3f68d4f71f25840fa80062716a90bfb9fac91e7a70a970c45ca2efcc51.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/grayscale.css" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/grayscale.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.4ms)
+
+
+Started GET "/js/jquery.easing.min.js" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.easing.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/js/grayscale.js" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/grayscale.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:08:54 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/intro-bg.jpg" for 54.251.49.8 at 2016-03-28 15:08:55 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/downloads-bg.jpg" for 54.251.49.8 at 2016-03-28 15:08:55 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:11:08 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/grayscale.self-ee4dbd599eb1b6e7459a3d7f7d64ffe968b229608cbef0e950345f1b2343979c.css?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+
+
+Started GET "/font-awesome/css/font-awesome.min.css" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/font-awesome/css/font-awesome.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.easing.min.self-17a01b6a2de1310e5b07a3fb735edcdccda497533463b31da3a352c81a6f3430.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:09 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/grayscale.self-64ef2b3f68d4f71f25840fa80062716a90bfb9fac91e7a70a970c45ca2efcc51.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.4ms)
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/css/grayscale.css" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/grayscale.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+
+
+Started GET "/js/jquery.easing.min.js" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.easing.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/grayscale.js" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/grayscale.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+
+
+Started GET "/assets/intro-bg.jpg" for 54.251.49.8 at 2016-03-28 15:11:10 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/downloads-bg.jpg" for 54.251.49.8 at 2016-03-28 15:11:11 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:25:38 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 415ms (Views: 406.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/business-casual.self-4fb488d3f2af244142a88146ad25b9d03e1f4ff2d8f4490ffdde03d885176863.css?body=1" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:25:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/business-casual.css" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/business-casual.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/img/bg.jpg" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/bg.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.7ms)
+
+
+Started GET "/img/slide-1.jpg" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/slide-1.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.7ms)
+
+
+Started GET "/img/slide-2.jpg" for 54.251.49.8 at 2016-03-28 15:25:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/slide-2.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.1ms)
+
+
+Started GET "/img/slide-3.jpg" for 54.251.49.8 at 2016-03-28 15:25:41 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/slide-3.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/img/intro-pic.jpg" for 54.251.49.8 at 2016-03-28 15:25:41 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/intro-pic.jpg"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.8ms)
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:28:13 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/assets/business-casual.self-40b5073d7c46d6f1162463288a339e29b6570c7e9b3bc63d5ceada6473ac4d00.css?body=1" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/css/business-casual.css" for 54.251.49.8 at 2016-03-28 15:28:14 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/business-casual.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.7ms)
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg.jpg" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide-1.jpg" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide-2.jpg" for 54.251.49.8 at 2016-03-28 15:28:15 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/intro-pic.jpg" for 54.251.49.8 at 2016-03-28 15:28:16 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide-3.jpg" for 54.251.49.8 at 2016-03-28 15:28:16 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 54.251.49.8 at 2016-03-28 15:30:32 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for 54.251.49.8 at 2016-03-28 15:30:32 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 54.251.49.8 at 2016-03-28 15:30:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for 54.251.49.8 at 2016-03-28 15:30:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 54.251.49.8 at 2016-03-28 15:30:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 54.251.49.8 at 2016-03-28 15:30:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/business-casual.self-40b5073d7c46d6f1162463288a339e29b6570c7e9b3bc63d5ceada6473ac4d00.css?body=1" for 54.251.49.8 at 2016-03-28 15:30:33 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/jquery.js" for 54.251.49.8 at 2016-03-28 15:30:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.3ms)
+
+
+Started GET "/css/business-casual.css" for 54.251.49.8 at 2016-03-28 15:30:34 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/css/business-casual.css"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.8ms)
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:35 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:35 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:37 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 54.251.49.8 at 2016-03-28 15:30:37 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg.jpg" for 54.251.49.8 at 2016-03-28 15:30:38 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide-1.jpg" for 54.251.49.8 at 2016-03-28 15:30:38 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide-2.jpg" for 54.251.49.8 at 2016-03-28 15:30:38 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/slide-3.jpg" for 54.251.49.8 at 2016-03-28 15:30:38 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/intro-pic.jpg" for 54.251.49.8 at 2016-03-28 15:30:39 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/js/bootstrap.min.js" for 54.251.49.8 at 2016-03-28 15:30:40 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/about.html" for 54.251.49.8 at 2016-03-28 15:30:42 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/about.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.3ms)
+
+
+Started GET "/about.html" for 54.251.49.8 at 2016-03-28 15:30:43 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/about.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.6ms)
+
+
+Started GET "/blog.html" for 54.251.49.8 at 2016-03-28 15:30:45 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/blog.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.5ms)
+
+
+Started GET "/blog.html" for 54.251.49.8 at 2016-03-28 15:30:45 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/blog.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/contact.html" for 54.251.49.8 at 2016-03-28 15:30:46 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/contact.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/blog.html" for 54.251.49.8 at 2016-03-28 15:31:17 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/blog.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+
+
+Started GET "/blog.html" for 54.251.49.8 at 2016-03-28 15:31:18 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/blog.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.0ms)
+
+
+Started GET "/about.html" for 54.251.49.8 at 2016-03-28 15:31:19 +0000
+Cannot render console from 54.251.49.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/about.html"):
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  .bundle/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/tagged_logging.rb:68:in `tagged'
+  .bundle/gems/railties-4.2.5.1/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  .bundle/gems/activesupport-4.2.5.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/static.rb:116:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/engine.rb:518:in `call'
+  .bundle/gems/railties-4.2.5.1/lib/rails/application.rb:165:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  .bundle/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.4ms)
